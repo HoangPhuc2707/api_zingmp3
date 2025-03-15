@@ -1,1 +1,1 @@
-GET http://localhost:5000/api/artist?name=Duc-Phuc
+GET http://localhost:5000/api/artist?name=Son-Tung

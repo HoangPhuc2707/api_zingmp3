@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 // ZingMp3Router
 const ZingMp3Router = require("./src/routes/ZingRouter")
-app.use("/api", cors({ origin: process.env.URL_CLIENT }), ZingMp3Router)
+app.use("/api", cors({ origin: '*' }), ZingMp3Router)
 
 // Page Error
 app.get("*", (req, res) => {
